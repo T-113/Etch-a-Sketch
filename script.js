@@ -5,8 +5,7 @@ const settings = document.getElementById("settings")
 function makeGrid(rows, cols) {
     container.style.gridTemplateRows = `repeat(${rows}, 1fr)`
     container.style.gridTemplateColumns = `repeat(${cols}, 1fr)`
-    container.style.width = "960px"
-    container.style.height = "600px"
+    
 
     for (i = 0; i < (rows * cols); i++) {
         const grids = document.createElement('div')
