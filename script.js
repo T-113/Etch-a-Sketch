@@ -25,6 +25,7 @@ function makeGrid(rows, cols) {
 
 
 const btnSmall = document.createElement('button')
+btnSmall.textContent = "Small (8x8)"
 settings.appendChild(btnSmall).className = "btn-small"
 
 btnSmall.addEventListener('click', function() {
@@ -33,6 +34,7 @@ btnSmall.addEventListener('click', function() {
 })
 
 const btnDefault = document.createElement('button')
+btnDefault.textContent = "Default (16x16)"
 settings.appendChild(btnDefault).className = "btn-default"
 
 btnDefault.addEventListener('click', function() {
@@ -41,6 +43,7 @@ btnDefault.addEventListener('click', function() {
 })
 
 const btnBig = document.createElement('button')
+btnBig.textContent = "Big (32x32)"
 settings.appendChild(btnBig).className = "btn-big"
 
 btnBig.addEventListener('click', function() {
