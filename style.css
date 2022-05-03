@@ -4,6 +4,7 @@ header {
     justify-content: center;
     margin: 30px;
     font-size: 25px;
+    
 }
 
   
@@ -21,8 +22,13 @@ header {
 
 #settings {
     display: flex;
-    margin: 30px;
+    margin-left: 110px;
+    margin-right: 110px;
     justify-content: center;
+    background-color: red;
+    padding: 5px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 
